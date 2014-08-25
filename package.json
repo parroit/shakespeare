@@ -22,18 +22,19 @@
   ],
   "main": "lib/shakespeare",
   "engines": {
-      "node": ">=0.10.26",
-      "npm": ">=1.4.3"
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
   },
   "scripts": {
     "test": "gulp test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "co": "^3.1.0"
+  },
   "devDependencies": {
     "chai": "~1.9.1",
     "gulp": "~3.8.6",
     "gulp-mocha": "~0.5"
-
   },
   "keywords": []
 }
